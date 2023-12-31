@@ -1,6 +1,4 @@
-// TODO: Run setup-firebase.sh
-
-// ignore_for_file: lines_longer_than_80_chars, avoid_classes_with_only_static_members, do_not_use_environment, constant_identifier_names
+-e // ignore_for_file: lines_longer_than_80_chars, avoid_classes_with_only_static_members, do_not_use_environment, constant_identifier_names
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show TargetPlatform, defaultTargetPlatform, kIsWeb;
@@ -28,7 +26,7 @@ class DefaultFirebaseOptions {
         );
       case TargetPlatform.iOS:
         throw UnsupportedError(
-          'Flavor $flavorName does not support iOS.',
+         'Flavor $flavorName does not support iOS.',
         );
       case TargetPlatform.macOS:
         throw UnsupportedError(
@@ -52,4 +50,6 @@ class DefaultFirebaseOptions {
         );
     }
   }
+
 }
+
