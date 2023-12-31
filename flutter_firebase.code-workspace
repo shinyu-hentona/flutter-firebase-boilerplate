@@ -3,14 +3,6 @@
     {
       "name": "Root",
       "path": "."
-    },
-    {
-      "name": "Firebase",
-      "path": "./firebase"
-    },
-    {
-      "name": "Flutter",
-      "path": "./flutter"
     }
   ],
   "settings": {
